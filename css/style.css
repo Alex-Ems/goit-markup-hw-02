@@ -1,3 +1,204 @@
-li {
-    list-style: none;
+:root {
+   --header-background-color: #ffffff ;
+   --hero-background-color: #2F303A;
+   --footer-color: #2F303A ;
+   --logo-color-blue: #2196F3;
+   --logo-color-white: #ffffff; 
+   --logo-color-black: #2F303A;
+   --header-item-link-color: #212121;
+   --header-link-hover: #2196F3;
+   --contacts-color: #757575;
+   --qualities-skills-background-color: #ffffff ;
+   --team-background-colour: #F5F4FA;
+   --footer-color-tel-mail: rgba(255, 255, 255, 0.6);
+
+
+
+
+
+
+}
+
+.body {
+    font-family: 'Roboto', 'Times New Roman', sans-serif;
+    color: #212121;
+}
+
+.list {
+list-style: none;
+}
+.link, .logo {
+text-decoration: none;
+}
+
+
+/*-------------------------------------Header---------------------------------- */
+.header { 
+    background-color: var(--header-background-color);
+}
+
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--logo-color-blue);
+}
+
+.header-logo-span {
+color: #000;
+}
+
+.header-item-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--header-item-link-color);
+}
+
+.header-item-link:hover,
+.header-item-link:focus {
+color: var(--header-link-hover)
+}
+
+.header-mail, .header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--contacts-color);
+}
+
+.header-mail:hover, .header-tel:hover,
+.header-mail:focus, .header-tel:focus {
+color: var(--header-link-hover)
+}
+
+
+/*-------------------------------------Hero----------------------------------   */
+.hero {
+background-color: var(--hero-background-color);
+
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-btn {
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.hero-btn:hover, .hero-btn:focus {
+background: #188CE8;
+cursor: pointer;
+}
+
+button {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF
+}
+
+/*-----------------------------------Qualities and Skills---------------------- */
+.qualities, .skills {
+background-color: var(--qualities-skills-background-color);
+}
+.qualities-top-text {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.qualities-bottom-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.skills-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121
+}
+
+/*-------------------------------------Team------------------------------------ */
+.team {
+background-color: var(--team-background-colour);
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-member {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.tech-skill {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*-------------------------------------Footer---------------------------------- */
+
+
+.footer {
+background-color: var(--logo-color-black);
+}
+.footer-logo-span {
+color: var(--logo-color-white);
+
+}
+.address-link, .address-mail, .address-tel {
+font-style: normal;
+}
+.address-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.address-mail, .address-tel {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--footer-color-tel-mail)
 }
