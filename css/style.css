@@ -101,7 +101,7 @@
 .address-mail:hover,
 .address-tel:hover,
 .address-mail:focus,
-.address-tel:focus, 
+.address-tel:focus,
 .address-link:hover,
 .address-link:focus {
   color: var(--header-link-hover);
